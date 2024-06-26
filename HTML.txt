@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <div id="prev">
+        <img src="/js-projects/Gallery/Gallery/circle-chevron-left-solid.svg" alt="">
+    </div>
+    <div class="gallery" id="gallery">
+        <div class="Images" >
+            <span><img src="/js-projects/Gallery/Gallery/IMG_0706.JPG" alt=""></span>
+            <span><img src="/js-projects/Gallery/Gallery/IMG_0695.JPG" alt=""></span>
+            <span><img src="/js-projects/Gallery/Gallery/IMG_0690.JPG" alt=""></span>
+        </div>
+        <div class="Images">
+            <span><img src="/js-projects/Gallery/Gallery/IMG_0705.JPG" alt=""></span>
+            <span><img src="/js-projects/Gallery/Gallery/IMG_0772.JPG" alt=""></span>
+            <span><img src="/js-projects/Gallery/Gallery/IMG_0707.JPG" alt=""></span>
+        </div>
+    </div>
+    <div id="next">
+            <img src="/js-projects/Gallery/Gallery/circle-chevron-right-solid.svg" alt="" srcset="">
+        </div> 
+    <script src="gallery.js"></script>
+</body>
+</html>

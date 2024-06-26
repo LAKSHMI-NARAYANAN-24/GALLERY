@@ -1,0 +1,19 @@
+let gallery = document.getElementById("gallery");
+let prev = document.getElementById("prev");
+let next = document.getElementById("next");
+
+gallery.addEventListener("wheel", (evt) => {
+    // evt.preventDefault();
+    gallery.style.scrollBehavior="smooth";
+    gallery.scrollLeft += evt.deltaY;
+});
+
+prev.addEventListener("click", () => {
+    gallery.style.scrollBehavior="smooth";
+    gallery.scrollLeft -= 60 ;
+});
+
+next.addEventListener("click", () => {
+    gallery.style.scrollBehavior="smooth";
+    gallery.scrollLeft += 60 ;
+});
